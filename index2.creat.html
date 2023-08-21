@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main"></div>
+    <script>
+      let _h1 = document.createElement("h1");
+      let _h2 = document.createElement("h2");
+      let _h3 = document.createElement("h3");
+      _h3.innerText = "fatemeh";
+      _h3.style.backgroundColor = "red";
+      _h3.style.border='5px solid black'
+
+      _h3.style.fontSize = "90px";
+      _h3.style.padding = "20px 30px";
+      document.getElementById("main").appendChild(_h3);
+      _h2.innerHTML = "ghorbanian";
+      _h2.style.color = "pink";
+      _h2.style.fontSize = "55px";
+      _h2.style.backgroundColor = "black";
+      document.getElementById("main").appendChild(_h2);
+      _h1.innerHTML = "parsa";
+      _h1.style.color = "blue";
+      _h1.style.fontSize = "80px";
+      document.getElementById("main").appendChild(_h1);
+    </script>
+  </body>
+</html>

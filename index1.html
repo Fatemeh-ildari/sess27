@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>3
+    <style>
+        .text{
+            background-color: darkblue;
+            color: white;
+            font-size: 80px;
+
+        }
+        .txt{
+            background-color: darkslateblue;
+            color: white;
+            font-size: 40px;
+            border: 2px solid black;
+        }
+        .para2{
+            background-color: dimgray;
+            color: black;
+            font-size: 88px;
+
+        }
+        .para{
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="demo" class="para">fatemeh ildari</h1>
+    <h2 id="demoo">fateme</h2>
+    <h3 id="hi-js">hello js</h3>
+    <script>
+        document.getElementById('demo').classList.add('text')
+        setTimeout(() => {
+            document.getElementById('demo').classList.remove('text')
+        }, 2000);
+        document.getElementById('demoo').classList.add('txt')
+        document.getElementById('hi-js').classList.add('para2')
+        
+    </script>
+</body>
+</html>

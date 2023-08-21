@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li onclick="para(this)"><a href="#">menu</a></li>
+      <li onclick="para(this)"><a href="#">menu</a></li>
+      <li onclick="para(this)"><a href="#">menu3</a>
+    <ul>
+        <li>sub</li>
+        <li>sub</li>
+        <li>sub</li>
+        <li>sub</li>
+        <li>sub</li>
+    </ul>
+    </li>
+      <li onclick="para(this)"><a href="#">menu4</a></li>
+      <li onclick="para(this)"><a href="#">menu5</a></li>
+      <li onclick="para(this)"><a href="#">menu6</a></li>
+      <li onclick="para(this)"><a href="#">menu7</a></li>
+      <li onclick="para(this)"><a href="#">menu8</a></li>
+    </ul>
+    <script>
+      function para(s) {
+        console.log(s);
+       let _child= s.children
+       _child[0].style.color='pink'
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="func1()">click</button>
+    <script>
+      function func1() {
+        let x = prompt("enter your number");
+        x*=10
+        alert('your num is :' + x)
+        func2()
+      }
+      function func2() {
+        console.log('hello callback func');
+      }
+    </script>
+  </body>
+</html>

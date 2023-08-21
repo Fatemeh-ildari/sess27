@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="para()">click to see date</h1>
+    <script>
+        function para(){
+            let x = new Date()
+           
+          document.getElementsByTagName('h1')[0].innerHTML=  x.toLocaleDateString('fa')
+        }
+    </script>
+</body>
+</html>
